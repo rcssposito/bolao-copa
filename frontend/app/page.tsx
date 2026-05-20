@@ -69,18 +69,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Setup Instructions */}
-        <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <h3 className="text-lg font-bold text-blue-900 mb-3">
-            🚀 Primeiros Passos
-          </h3>
-          <ol className="list-decimal list-inside space-y-2 text-blue-800">
-            <li>Execute o schema SQL no Supabase</li>
-            <li>Inicie o backend: <code className="bg-blue-100 px-2 py-1 rounded">cd backend && ./start.sh</code></li>
-            <li>Sincronize os jogos via API admin</li>
-            <li>Adicione usuários e comece a apostar!</li>
-          </ol>
-        </div>
 
         {/* Footer */}
         <footer className="mt-12 text-center text-gray-600">
